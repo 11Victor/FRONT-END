@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+
+
+
 <!-- HEAD_Metadados(dados sobre dados)-->
 <head>
     <meta charset="UTF-8">
@@ -8,36 +11,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--CSS Externo-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 
     <!-- TITLE: Título do documento -->
     <title>Victor Valencio</title>
 </head>
 
+
+
+
 <!-- BODY_Conteúdo--> <!--CSS Interno: style="color: rgb(255, 255, 255);">-->
 <body style="color: rgb(255, 255, 255);">
     
     <!-- UL = Lista não ordenada-->
-    <ul>
+    <ul id="menu">
+
         <li>
             <a href="index.html"> Home</a>
         </li>
+
         <li>
-            <a href="contato.html" target="_blank">Contato</a>
+            <a href="contato.html">Contato</a>
+        </li>
+        
+        <li>
+            <a href="THREE.JS/index.html" target="_blank">Three.js</a>
         </li>
     </ul>
 
-    <h1>Sobre Victor Valencio</h1>
-    <p>Sou apaixonado por programação, tenho 21 anos, estou cursando o 4° semestre de Engenharia da Computação e
-        conciliando com o Bootcamp da Generation Brasil com o principal objetivo de me tornar um Desenvolvedor Full
-        Stack Júnior, atualmente estou aberto para receber propostas de trabalho.</p>
+    <h1 class="center">Sobre Victor Valencio</h1>
 
-    <img height="315" src="assets/WhatsApp Image 2021-09-08 at 20.54.11.jpeg" alt="My picture">
+    <div class="flex-container">
+        <div class="flex-image">
+            <img height="315" src="assets/styles/img/WhatsApp Image 2021-09-08 at 20.54.11.jpeg" alt="My picture">
+        </div>
+
+        <div>
+            <p >Sou apaixonado por programação, tenho 21 anos, estou cursando o 4° semestre de Engenharia da Computação e
+            conciliando com o Bootcamp da Generation Brasil com o principal objetivo de me tornar um Desenvolvedor Full
+            Stack Júnior, atualmente estou aberto para receber propostas de trabalho.</p>
+        </div>
+
+    </div>
 
     <h2><br> Java!</h2>
     <iframe 
-    width="560" 
-    height="315" 
+    
+    width="380" 
+    height="200" 
     src="https://www.youtube.com/embed/sZAxLRMxEUo" 
     title="YouTube video player"
     frameborder="5" 

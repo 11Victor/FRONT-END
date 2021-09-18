@@ -1,7 +1,0 @@
-body{
-    background-image: url(./assets/SS.png);
-    background-repeat: no-repeat; /* Para não repetir a imagem*/
-    background-size: cover; /* Para a imagem cobrir a página inteira*/
-    background-attachment: fixed; /* Ao rolar a pagina a imagem fica parada*/
-    
-}

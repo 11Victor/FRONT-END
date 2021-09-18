@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 255, 255);
+  background-image: url(img/SS.png);
+  background-repeat: no-repeat; /* Para não repetir a imagem*/
+  background-size: cover; /* Para a imagem cobrir a página inteira*/
+  background-attachment: fixed; /* Ao rolar a pagina a imagem fica parada*/
+}
+.center {
+  text-align: center;
+}
+
+#menu {
+  display: flex;
+  
+}
+
+#menu li {
+  display: inline;
+  padding: 15px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+#menu li a:hover{
+  font-size:x-large;
+}
+
+.texto{
+  text-align: center;
+  padding: auto;
+}
+
+.divSeparada {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.divSeparada {
+  width: 100%;
+}
+
+@media (min-width: 650px){
+  .flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;    
+
+  }
+  .flex-image{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 3%;
+  }
+
+}
+
