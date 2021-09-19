@@ -1,14 +1,11 @@
-body {
-  text-align: center;
+/*----------------INDEX E CONTATO----------------*/
+body{
   font-family: 'Courier New', Courier, monospace;
   color: rgb(255, 255, 255);
   background-image: url(img/SS.png);
   background-repeat: no-repeat; /* Para não repetir a imagem*/
   background-size: cover; /* Para a imagem cobrir a página inteira*/
   background-attachment: fixed; /* Ao rolar a pagina a imagem fica parada*/
-}
-.center {
-  text-align: center;
 }
 
 #menu {
@@ -24,17 +21,43 @@ body {
 #menu li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #menu li a:hover{
-  font-size:x-large;
+  font-size:35px;
 }
 
-.texto{
+.center {
   text-align: center;
-  padding: auto;
 }
+
+.pt-2{
+  padding-top: 2%;
+}
+
+.pb-2{
+  padding-bottom: 3%;
+}
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+
+.padding{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+
+
+/*----------------CONTATO----------------*/
+
+
 
 .divSeparada {
   margin-bottom: 15px;
@@ -42,27 +65,109 @@ body {
   flex-direction: column;
   width: 60%;
   justify-content: center;
-  align-items: center;
 }
 
 .divSeparada {
   width: 100%;
 }
 
+.divSeparada button{
+  width: 40%;
+  align-self: center;
+  padding: 15px 0;
+}
+
+.textsize{
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.250rem;
+}
+
+
+
+/*----------------INDEX----------------/
+
+/*Para computadores*/
 @media (min-width: 650px){
   .flex-container {
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    padding-right: 5%;    
+    padding-right: 5%;
+    text-align:justify;
+    font-size: 20px;
 
   }
   .flex-image{
+    
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 3%;
+    
+  }
+
+  .video{
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .video iframe{
+    width: 480px;
+    height: 300px;
+  }
+
+  .redesocial{
+    display: flex;
+    justify-content: center;
+  }
+
+  .redesocial div{
+    padding: 3%;
+    
+  }
+
+.contato{
+  display: flex;
+  justify-content: center;
+}
+
+
+  
+}
+
+/*Para celulares*/
+@media (max-width: 650px){
+  .flex-container {
+    text-align: justify;
+    
+    
+    
+  }
+  .flex-image{
+    padding: 5%;
+    text-align: center;
+    
+    
+  }
+
+  .video{
+    padding-top: 5%;
+    text-align: center;
+    
+  }
+
+  .redesocial{
+    display: flex;
+    justify-content: center;
+  }
+
+  .redesocial div{
+    padding: 3%;
+    
   }
 
 }
+
 
